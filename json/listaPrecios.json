@@ -1,0 +1,26 @@
+[
+    {
+    "nombre": "tartaFrutillas",
+    "precio": 800
+    },
+    {
+    "nombre": "tartaChocolate",
+    "precio": 1000
+    },
+    {
+    "nombre": "tartaDurazno",
+    "precio": 900
+    },
+    {
+    "nombre": "galletasDecoradas",
+    "precio": 300
+    },
+    {
+    "nombre": "galletasCraqueladas",
+    "precio": 350
+    },
+    {
+    "nombre": "galletasFlores",
+    "precio": 325
+    }
+]

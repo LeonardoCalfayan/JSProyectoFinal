@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="PasteLou, pastelería artesanas, snacks, saladitos, catering, catering eventos, copetin">
+    <meta name="description" content="PasteLou te ofrece excelentes opciones de snacks salados para eventos">
+    <link rel="shortcut icon" href="../images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>PasteLou - Rincón Salado</title>
+</head>
+<body>
+    <header class="header">
+       
+        <div class="headerTitulo">
+            <div class = "headerLogo">
+                <a href="../index.html"> <img src="../images/logoPasteLou_s_fondo.png" alt="Logo PasteLou"> </a><!-- Icon principal con link a index.html-->
+            </div>
+            <div id="headerTituloTexto" class="animate__animated animate__fadeInDown">
+                <h1> PasteLou </h1>
+                <h2> Pastelería Artesanal </h2> 
+            </div>     
+        </div>
+
+        <nav class="barraNavegacion navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" id="colorTexto" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" id="colorTexto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="colorTexto"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                
+                    <a class="nav-link" id="colorTexto" href="./tortasDecoradas.html">Tortas Decoradas</a>
+                    <a class="nav-link" id="colorTexto" href="./pasteleriaTradicional.html">Pastelería Tradicional</a>
+                    <a class="nav-link" id="active" href="./rinconSalado.html">Rincón Salado</a>
+                    <a class="nav-link" id="colorTexto" href="./contacto.html">Contacto</a>
+                    
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="productosDestacados">
+    
+        <div class="productosDestacadosTitle">
+            <h2 class="tituloSeccion">Rincón Salado</h2>
+        </div>
+        <div class="productosDestacadosCards">
+
+            <article class="productosDestacados__card__fosforitos">
+                <div  class="productosDestacados__card__foto"> </div>
+                <h3> Fosforitos </h3>    
+            </article>
+            <article class="productosDestacados__card__brusquetas">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Brusquetas </h3>    
+            </article>
+            <article class="productosDestacados__card__canapes">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Canapes </h3>    
+            </article>
+
+    
+            <article class="productosDestacados__card__empanadasArabes">
+                <div  class="productosDestacados__card__foto"> </div>
+                <h3> Empanadas Arabes </h3>    
+            </article>
+            <article class="productosDestacados__card__pizzetas">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Pizzetas </h3>    
+            </article>
+            <article class="productosDestacados__card__empanadas">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Empanadas de Copetín </h3>    
+            </article>
+
+    </section>
+    
+    <section>
+        <form class="formulario textoGenerico" action="/" method="post">
+            <div class="formularioIzquierdo"> 
+                <div class="formularioItem">  
+                    <legend class="tituloSeccion">Elegí lo que mas te guste de nuestro Rincón Salado</legend>
+                    <fieldset>
+                        <select name="">
+                            <option value="fosforitos">Fosforitos de jamón y queso</option>
+                            <option value="brusquetas">Bruequetas</option>
+                            <option value="canapes">Canapes</option>
+                            <option value="lehmeyun">Empenadas Arabes</option>
+                            <option value="pizzetas">Pizzetas</option>
+                            <option value="empanadasCopetín">Empanadas de Copetín</option>
+                        </select>
+                </div>
+                <div class="formularioItem">        
+                    <label for="">Apto celíaco </label>
+                    <input type="checkbox" name="sinTaac" value="1" />
+                    <img class="logoSTacc" src="../images/sintacc.png" alt="Logo Sin TACC">
+                </div>
+                <div class="formularioItem"> 
+                    <div>
+                        <label for="">Box Chico (6u)</label>
+                        <input type="radio" name="tamano" value="chico" />
+                    </div>
+                    <div>
+                        <label for="">Box Mediano (12u)</label>
+                        <input type="radio" name="tamano" value="mediano" />
+                    </div>
+                    <div>
+                        <label for="">Box Grande (18u)</label>
+                        <input type="radio" name="tamano" value="grande" />
+                    </div>
+                </div> 
+                </div>
+                <div class="formularioDerecho"> 
+                    <textarea name="textarea" rows="5" cols="25">Comentanos algún detalle especial para tu pedido</textarea>
+
+                    <input type="submit" value="Agregar al Carrito">
+                    <input type="reset" value="Borrar pedido">
+                </div>  
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="textoGenerico">Visitanos en nuestras redes sociales</p>
+        <div class="footerRS">    
+            <a href="https://www.facebook.com/pages/category/Entrepreneur/PasteLou-2195331034122883/"> <img src="../images/facebook-square-brands.svg" width=100% height=100% alt="Enlace PasteLou Facebook"></a>
+            <a href="https://www.instagram.com/pasteloureposteria/?utm_medium=copy_link"> <img src="../images/instagram-square-brands.svg" width=100% height=100% alt="Enlace PasteLou Instagram"></a>
+        </div>
+        <p class="textoGenerico">© 2021. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

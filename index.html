@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="PasteLou, pastelería, pastelería artesanas, pasteleria tradicional, tortas, torta tematica, cupcakes, cakepops, tienda pastelería">
+    <meta name="description" content="PasteLou es una tienda dedicada productos de pastelería de la mejor calidad">
+    <link rel="shortcut icon" href="./images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>PasteLou</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="headerTitulo">
+            <div class = "headerLogo">
+                <a href="./index.html"> <img src="./images/logoPasteLou_s_fondo.png" alt="Logo PasteLou"> </a><!-- Icono principal con link a index.html-->
+            </div>
+            <div id="headerTituloTexto" class="animate__animated animate__fadeInDown">          
+                <h1> PasteLou </h1>
+                <h2> Pastelería Artesanal </h2> 
+            </div>     
+        </div>
+
+        <nav class="barraNavegacion navbar navbar-expand-lg navbar-light">      
+            <a class="navbar-brand active" id="colorTexto" href="./index.html">Inicio</a>
+            <button class="navbar-toggler" id="colorTexto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="colorTexto"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                
+                    <a class="nav-link" id="colorTexto" href="./pages/tortasDecoradas.html">Tortas Decoradas</a>
+                    <a class="nav-link" id="colorTexto" href="./pages/pasteleriaTradicional.html">Pastelería Tradicional</a>
+                    <a class="nav-link" id="colorTexto" href="./pages/rinconSalado.html">Rincón Salado</a>
+                    <a class="nav-link" id="colorTexto" href="./pages/contacto.html">Contacto</a>
+                    
+                </div>
+            </div>        
+        </nav>
+
+        <!-- <section class="imagenBanner">
+
+        </section> -->
+        
+        <div id="carouselProductos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div id="imagenBanner1" class="carousel-item active"></div>
+                <div id="imagenBanner2" class="carousel-item"></div>
+                <div id="imagenBanner3" class="carousel-item"></div>
+                <div id="imagenBanner4" class="carousel-item"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    
+    </header>
+  
+    <section class="productosDestacados">   
+       
+        <div class="productosDestacadosTitle">
+            <h2 class="tituloSeccion"> Productos Destacados </h2>
+        </div>
+        <div class="productosDestacadosCards">
+
+            <article class="productosDestacados__card__cookies">
+                <div  class="productosDestacados__card__foto"> </div>
+                <h3> Cookies </h3>    
+            </article>
+
+            <article class="productosDestacados__card__cupCake">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Cupcakes </h3>    
+            </article>
+
+            <article class="productosDestacados__card__cakePop">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Cake Pops </h3>    
+            </article> 
+        
+            <article class="productosDestacados__card__bombonesChocolate">
+                <div  class="productosDestacados__card__foto"> </div>
+                <h3> Chocolates </h3>    
+            </article>
+
+            <article class="productosDestacados__card__tortaNumero">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Fechas Especiales </h3>    
+            </article>
+
+            <article class="productosDestacados__card__giftCard">
+                <div class="productosDestacados__card__foto"></div>
+                <h3> Gift Card </h3>    
+            </article>
+        </div>
+    
+    </section>
+
+    <section class="nosotros">
+        
+        <article id="nosotros">
+            <h2 class="tituloSeccion"> Lo que hacemos </h2>
+            <p class="textoGenerico">Te ofrecemos la mejor calidad y dedicación en cada producto que hacemos. Buscamos que nos vuelvas a elegir cada vez que pruebes lo que preparamos. Desde hace mas de 15 años nos enfocamos en brindarte lo mejor de la pastelería artesanal, tratando siempre de actualizarnos a lo que es tendencia en el momento. En esta página podés encontrar todas nuestras creaciones y además podés visitarnos en nuestro local.</p>
+        </article>
+
+        <article id="nuestraTienda">
+            <h2 class="tituloSeccion"> Nuestra Tienda </h2>
+            <img src="./images/nuestraTienda.jpg" alt="Imagen Tienda" height="100%" width="auto">      
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p class="textoGenerico">Visitanos en nuestras redes sociales</p>
+        <div class="footerRS">    
+            <a href="https://www.facebook.com/pages/category/Entrepreneur/PasteLou-2195331034122883/"> <img src="./images/facebook-square-brands.svg" width=100% height=100% alt="Enlace PasteLou Facebook"></a>
+            <a href="https://www.instagram.com/pasteloureposteria/?utm_medium=copy_link"> <img src="./images/instagram-square-brands.svg" width=100% height=100% alt="Enlace PasteLou Instagram"></a>
+        </div>
+        <p class="textoGenerico">© 2021. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
